@@ -9,30 +9,6 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-
-const firebaseConfig = {
-
-  apiKey: "AIzaSyC5F7dR4GtUh_wzIqdSp4NLqzRUXbsarvA",
-
-  authDomain: "dauhma-ebb6f.firebaseapp.com",
-
-  projectId: "dauhma-ebb6f",
-
-  storageBucket: "dauhma-ebb6f.firebasestorage.app",
-
-  messagingSenderId: "652483573243",
-
-  appId: "1:652483573243:web:8a1461f61c016ce972c75e",
-
-  measurementId: "G-8SHZL77RPP"
-
-};
-
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
 const HomePage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
