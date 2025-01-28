@@ -12,7 +12,8 @@ interface NavItem {
 
 const navigation: NavItem[] = [
   { label: "Início", href: "#inicio" },
-  { label: "Sobre nós", href: "#why-us" },
+  { label: "Por quê?", href: "#pq-nois" },
+  { label: "Sobre nós", href: "#sobre-nois" },
   { label: "Sobre a casa", href: "#sobre-casa" },
   { label: "Contato", href: "#contato" },
 ];
@@ -21,7 +22,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800 text-white">
+    <nav className="flex-auto bg-gray-800 text-white justify-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -30,18 +31,18 @@ const Navbar = () => {
               href="/"
               className="flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105"
             >
-              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-white mr-2 rounded-full flex items-center justify-center">
                 <span className="bg-gray-800 text-white text-xl font-bold">
                   <Image
                     src="/logo dauhma bata branco.png"
-                    alt="Logo"
+                    alt="República Dauhma"
                     width={200}
                     height={200}
                     className=""
                   />
                 </span>
               </div>
-              <span className="text-xl font-bold">Logo</span>
+              <span className="flex-auto text-xl font-bold justify-center">República Dauhma</span>
             </Link>
           </div>
 
@@ -62,7 +63,7 @@ const Navbar = () => {
           {/* Right Side Icons */}
           <div className="hidden md:flex items-center space-x-6">
             <button className="text-white hover:text-purple-200 transition-all duration-300 ease-in-out transform hover:scale-110">
-            <Tooltip title="Procurar (ferramenta em desenvolvimento)">
+            <Tooltip title="Buscar (ferramenta em desenvolvimento)">
               <Search className="h-5 w-5" />
             </Tooltip>
             </button>
@@ -106,11 +107,11 @@ const Navbar = () => {
               </Link>
             ))}
             <div className="flex items-center">
-              <Tooltip title="Login">
+              <Tooltip placement="bottomLeft" title="Buscar (Em desenvolvimento)">
                 <Search className="h-5 w-5 transition-transform duration-300 hover:scale-110 cursor-pointer" />
               </Tooltip>
               <div className="flex items-center space-x-4 px-3 py-2">
-                <Tooltip title="Carrinho">
+                <Tooltip placement="bottomRight" title="Login (Em desenvolvimento)">
                   <User className="h-5 w-5 transition-transform duration-300 hover:scale-110 cursor-pointer" />
                 </Tooltip>
               </div>
