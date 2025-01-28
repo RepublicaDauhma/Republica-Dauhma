@@ -8,9 +8,26 @@ import {
   PersonStanding,
 } from "lucide-react";
 import Image from "next/image";
+import dynamic from 'next/dynamic';
+
+const icons = [
+  'ArrowRight',
+  'ArrowLeft',
+  'HousePlus',
+  'Handshake',
+  'PersonStanding',
+];
+
+const dynamicIcons = icons.reduce((acc, icon) => {
+  acc[icon] = dynamic(() => import('lucide-react').then((module) => module[icon]), {
+    ssr: false,
+  });
+  return acc;
+}, {});
 
 const HomePage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  
 
   const rooms = [
     {
