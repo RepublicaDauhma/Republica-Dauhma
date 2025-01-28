@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+
+# npm logs
+npm-debug.log*
+
+# npm cache
+.npm/
+
+# IDE and editor files
+.vscode/
+.idea/
+.editorconfig
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build and dist files
+build/
+dist/
+
+# Temp files
+tmp/
+*.tmp
+
+# Config files
+.env
+config.json
+
+# Test files
+coverage/
+test-results.xml
+jest.config.js
