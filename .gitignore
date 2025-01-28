@@ -35,4 +35,3 @@ config.json
 # Test files
 coverage/
 test-results.xml
-jest.config.js
