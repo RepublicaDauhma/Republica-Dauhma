@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST="{\"app/page.tsx -> lucide-react\":{\"id\":\"app/page.tsx -> lucide-react\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_pnpm_lucide-react_0_474_0_react_19_0_0_node_modules_lucide-re-8903f3.js\"]}}"
