@@ -1,12 +1,15 @@
 {
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
+    "antd": "^5.23.3",
     "lucide-react": "^0.474.0",
     "next": "^15.1.6",
     "nextra": "^4.1.0",
     "nextra-theme-blog": "^4.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "sass": "^1.83.4",
+    "scss": "^0.2.4",
     "tailwindcss": "^4.0.0"
   },
   "scripts": {

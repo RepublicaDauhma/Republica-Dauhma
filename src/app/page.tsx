@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import dynamic from 'next/dynamic';
+import './index.css'
 
 const icons = [
   'ArrowRight',
@@ -27,7 +28,6 @@ const dynamicIcons = icons.reduce((acc, icon) => {
 
 const HomePage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  
 
   const rooms = [
     {
@@ -37,13 +37,13 @@ const HomePage = () => {
     },
     {
       image: "/mesabixos.jpeg",
-      title: "Mesa do quarto dos Bixos",
-      description: "Mesas do quarto.",
+      title: "Área de estudos do quarto",
+      description: "Aqui rola bastante estudo e jogatina!",
     },
     {
       image: "/banheirosbixos.jpeg",
-      title: "Quarto 3",
-      description: "Descrição do quarto 3",
+      title: "Banheiro dos bixos",
+      description: "Suíte do quarto, compondo 1 dos 4 banheiros da casa.",
     },
   ];
 
@@ -56,7 +56,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen !scroll-smooth">
       {/* Hero Section */}
       <section id="inicio" className="bg-gray-800 text-white py-5">
         <Image
