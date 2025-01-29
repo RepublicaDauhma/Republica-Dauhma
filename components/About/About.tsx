@@ -6,7 +6,7 @@ export default function About() {
   const sections = [
     {
       title: "Moradores",
-      description: "Conheça nossa família!",
+      description: "Conheça nossos moradores, nossa segunda",
       icon: Users,
       color: "text-blue-600",
       hoverColor: "group-hover:text-blue-700",
@@ -18,7 +18,7 @@ export default function About() {
       icon: Calendar,
       color: "text-green-600",
       hoverColor: "group-hover:text-green-700",
-      link: "https://www.instagram.com/p/C7dLj8UgRgz/",
+      link: "https://www.instagram.com/p/DDiAm4Yhs0x/",
     },
     {
       title: "Festas",
@@ -26,7 +26,7 @@ export default function About() {
       icon: PartyPopper,
       color: "text-purple-600",
       hoverColor: "group-hover:text-purple-700",
-      link: "https://www.instagram.com/p/C7dLj8UgRgz/",
+      link: "https://www.instagram.com/p/ClMu15MgrDi/",
     },
   ];
 

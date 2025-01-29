@@ -86,9 +86,9 @@ export default function Contact() {
               type="primary"
               htmlType="submit"
               size="large"
-              className="w-full h-12 bg-gray-800 hover:bg-gray-700"
+              className="text-black w-full bg-indigo-400 h-12 hover:bg-indigo-200"
             >
-              Enviar mensagem via WhatsApp
+              Entre em contato!
             </Button>
           </div>
         </Form>
