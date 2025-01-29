@@ -13,8 +13,8 @@ interface NavItem {
 const navigation: NavItem[] = [
   { label: "Início", href: "#inicio" },
   { label: "Por quê?", href: "#pq-nois" },
-  { label: "Sobre nós", href: "#sobre-nois" },
   { label: "Sobre a casa", href: "#sobre-casa" },
+  { label: "Sobre nós", href: "#sobre-nos" },
   { label: "Contato", href: "#contato" },
 ];
 
