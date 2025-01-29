@@ -38,7 +38,7 @@ export default function About() {
           {sections.map((section, index) => {
             const Icon = section.icon;
             return (
-            <Link href={section.link}>
+            <Link key={index} href={section.link}>
               <div
                 key={index}
                 className="group bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
