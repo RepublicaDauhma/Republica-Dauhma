@@ -14,7 +14,7 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: <HousePlus color="black" className="w-6 h-6" />,
-    title: "Espaço grande e organizado.",
+    title: "Espaço grande e bem localizado.",
     description:
       "Casa grande com amplo espaço de convívio, próxima à rodoviária e no melhor bairro da cidade para universitários.",
   },
@@ -22,13 +22,13 @@ const features: Feature[] = [
     icon: <Handshake color="black" className="w-6 h-6" />,
     title: "Ambiente inclusivo e diverso.",
     description:
-      "Nossa casa aceita e incentiva a pluralidade cultural, com uma atmosfera acolhedora e inclusiva. Aqui você pode ser você mesmo.",
+      "Nossa casa aceita e incentiva a pluralidade cultural, com uma atmosfera acolhedora e inclusiva. Aqui você pode ser você mesmo. =)",
   },
   {
     icon: <PersonStanding color="black" className="w-6 h-6" />,
     title: "Grande rede de apoio.",
     description:
-      "Temos uma grande rede de ex-moradores e agregados, que nos ajudam a ser um lugar de grande apoio para estudantes, principalmente aos recém-chegados. ",
+      "Temos uma grande rede de ex-moradores e estudantes agregados, que nos ajudam a ser um lugar de grande apoio para os universitários, principalmente aos recém-chegados. ",
   },
   {
     icon: <PawPrint color="black" className="w-6 h-6" />,
@@ -46,10 +46,10 @@ const features: Feature[] = [
 
 const PitchSection = () => {
   return (
-    <section id="pq-nois" className="bg-gray-50 py-20">
+    <section id="pq-nois" className="bg-gray-50 py-32 mt-5">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-1">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-2">
             Por quê nos escolher?
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -74,7 +74,7 @@ const PitchSection = () => {
             </div>
           ))}
         </div>
-        <div className="flex-auto mx-center grid md:grid-cols-2 gap-8 p-4 md:p-8 lg:p-8 justify-center">
+        <div className="flex-auto mx-center grid md:grid-cols-2 gap-8 p-4 md:p-8 lg:p-16 justify-center">
           {features.slice(3).map((feature, index) => (
             <div
               key={index}

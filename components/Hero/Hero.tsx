@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react"; // assuming the ArrowRight component 
 
 const Hero = () => {
   return (
-    <section id="inicio" className="bg-gray-800 text-white py-24">
+    <section id="inicio" className="bg-gray-800 text-white py-44">
       <Image
         src="/logo dauhma bata branco.png"
         alt="Logo"
@@ -20,7 +20,7 @@ const Hero = () => {
             <span className="block text-purple-300"> se encontram.</span>
           </h1>
           <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-            Enxergue o mundo de outra perspectiva, aproveite sua graduação para
+            Enxergue o mundo de outra perspectiva, aproveite a graduação para
             viver os melhores dias da sua vida.
           </p>
           <div className="flex justify-center gap-4">
