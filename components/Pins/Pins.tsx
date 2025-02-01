@@ -9,7 +9,7 @@ export default function Pins() {
         <div className="flex flex-col items-center gap-4">
           <Pin className="w-8 h-8 text-gray-600" />
           <p className="text-center">
-            Atualmente somos em 15 moradores, um cachorro e um gato.
+            Atualmente somos em 11 moradores, 3 cachorros e um gato.
           </p>
         </div>
       </div>
@@ -27,7 +27,7 @@ export default function Pins() {
         <div className="flex flex-col items-center gap-4">
           <Pin className="w-8 h-8 text-gray-600" />
           <p className="text-center">
-            Nossa casa conta com moradores da USP e UFSCar, de diversos cursos
+            Nossa casa conta com moradores da USP, UFSCar e IFSP, de vários cursos
             diferentes.
           </p>
           

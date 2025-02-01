@@ -50,7 +50,7 @@ const PitchSection = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-2">
-            Por quê nos escolher?
+            Por que nos escolher?
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Experiencie um ambiente de aprendizado e crescimento, amizade e

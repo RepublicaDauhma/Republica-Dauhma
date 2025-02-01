@@ -11,13 +11,13 @@ import Pins from "../../components/Pins/Pins";
 import DownButton from "../../components/DownButton/DownButton";
 import About from "../../components/About/About";
 import Contact from "../../components/Contact/Contact";
+import Faces from "../../components/Faces/Faces";
 
 const HomePage = () => {
   return (
     <div className="min-h-screen !scroll-smooth">
       {/* Hero Section */}
-      <Hero></Hero>
-      {/* Features Section */}
+      <Hero></Hero>x1    {/* Features Section */}
       <PitchSection></PitchSection>
       {/* About the House Section */}
       <section id="sobre-casa" className="bg-white py-20">
@@ -35,11 +35,13 @@ const HomePage = () => {
           <div>
             <Pins></Pins>
           </div>
-        </div>
+        </div>1
         <DownButton></DownButton>
       </section>
       {/* About Us Section */}
+ 
       <About></About>
+      <Faces></Faces>
       {/* Contact Section */}
       <Contact></Contact>
     </div>
