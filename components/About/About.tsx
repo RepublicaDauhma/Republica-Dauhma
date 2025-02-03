@@ -6,7 +6,7 @@ export default function About() {
   const sections = [
     {
       title: "Moradores",
-      description: "Conheça nossos moradores, nossa segunda",
+      description: "Conheça nossos moradores, nossa segunda família.",
       icon: Users,
       color: "text-blue-600",
       hoverColor: "group-hover:text-blue-700",

@@ -40,7 +40,7 @@ const features: Feature[] = [
     icon: <TvMinimalPlay color="black" className="w-6 h-6" />,
     title: "Internet e streaming ilimitados.",
     description:
-      "A casa conta com 600mb de internet fibra e também com uma TV com acesso ilimitado ao Netflix, Disney+, HBO Max, Prime Video, Youtube Premium e Spotify.",
+      "A casa conta com 700mb de internet fibra e também com uma TV com acesso ilimitado ao Netflix, Disney+, HBO Max, Prime Video, Youtube Premium e Spotify.",
   },
 ];
 
