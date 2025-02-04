@@ -1,15 +1,13 @@
-/**
- * @type {import('next').NextConfig}
- */
-
-const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
-  basePath: isProd ? '/republica-dauhma' : '',
-  output: 'export',
-  distDir: 'dist',
+  basePath: "/republica-dauhma",
+  output: "export",
+  distDir: "dist",
   images: {
-    unoptimized: true
-  }
-}
- 
-module.exports = nextConfig
+    unoptimized: true,
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/republica-dauhma",
+  },
+};
+
+module.exports = nextConfig;

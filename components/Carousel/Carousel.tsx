@@ -1,11 +1,8 @@
 import react, { useState } from "react";
 import Image from "next/image";
 import { ArrowLeft, ArrowRight, House } from "lucide-react";
-import { useRouter } from "next/router";
 
-const router = useRouter();
-const basePath = router.basePath; // Gets '/republica-dauhma' in production
-
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Carousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
