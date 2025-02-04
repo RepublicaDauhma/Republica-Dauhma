@@ -13,12 +13,12 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const features: Feature[] = [
   {
-    image: `${basePath}/scot.jpeg`,
+    image: `${basePath}/scot.jpg`,
     title: "Scot",
     link: "https://wa.me/5519998305570/",
   },
   {
-    image: `${basePath}/scot.jpeg`,
+    image: `${basePath}/pomba.jpeg`,
     title: "Pomba",
     link: "https://wa.me/5511946826396/",
   },
