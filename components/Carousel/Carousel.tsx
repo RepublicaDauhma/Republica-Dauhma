@@ -7,7 +7,6 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function Carousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-
   const rooms = [
     {
       image: `${basePath}/quartobixos.jpeg`,
@@ -16,82 +15,82 @@ export default function Carousel() {
         "Esse aqui é seu futuro quarto, conta com área de estudos e banheiro.",
     },
     {
-      image: "/mesabixos.jpeg",
+      image: `${basePath}/mesabixos.jpeg`,
       title: "Área de estudos do quarto",
       description: "Aqui rola bastante estudo e jogatina!",
     },
     {
-      image: "/banheirosbixos.jpeg",
+      image: `${basePath}/banheirosbixos.jpeg`,
       title: "Banheiro dos bixos",
       description: "Suíte do quarto, compondo 1 dos 4 banheiros da casa.",
     },
     {
-      image: "/garagem.jpg",
+      image: `${basePath}/garagem.jpg`,
       title: "Garagem",
       description: "Espaço amplo para carros e armazenamento.",
     },
     {
-      image: "/garagembaixo.jpg",
+      image: `${basePath}/garagembaixo.jpg`,
       title: "Garagem Inferior",
       description: "Mais um espaço coberto para veículos.",
     },
     {
-      image: "/garagemfundo.jpg",
+      image: `${basePath}/garagemfundo.jpg`,
       title: "Garagem Fundo",
       description: "Vista do fundo da garagem.",
     },
     {
-      image: "/garagemsinuca.jpg",
+      image: `${basePath}/garagemsinuca.jpg`,
       title: "Área de Lazer na Garagem",
       description: "Mesa de sinuca para diversão da galera.",
     },
     {
-      image: "/portao.jpg",
+      image: `${basePath}/portao.jpg`,
       title: "Portão de Entrada",
       description: "Entrada principal da casa.",
     },
     {
-      image: "/sala.jpg",
+      image: `${basePath}/sala.jpg`,
       title: "Sala de Estar",
       description: "Espaço aconchegante para socializar.",
     },
     {
-      image: "/sala2.jpg",
+      image: `${basePath}/sala2.jpg`,
       title: "Sala Alternativa",
       description: "Outro ângulo da sala de estar.",
     },
     {
-      image: "/sala3.jpg",
+      image: `${basePath}/sala3.jpg`,
       title: "Sala de TV",
       description: "Ambiente confortável para assistir filmes.",
     },
     {
-      image: "/varandabosque.jpg",
+      image: `${basePath}/varandabosque.jpg`,
       title: "Varanda com Vista para o Bosque",
       description: "Vista tranquila para a área verde.",
     },
     {
-      image: "/varandabosque2.jpg",
+      image: `${basePath}/varandabosque2.jpg`,
       title: "Varanda Bosque 2",
       description: "Outro ângulo da varanda com vista.",
     },
     {
-      image: "/varandasala.jpg",
+      image: `${basePath}/varandasala.jpg`,
       title: "Varanda Integrada com Sala",
       description: "Espaço externo conectado com a sala de estar.",
     },
     {
-      image: "/varandasala2.jpg",
+      image: `${basePath}/varandasala2.jpg`,
       title: "Varanda Sala 2",
       description: "Outro ângulo da varanda conectada à sala.",
     },
     {
-      image: "/varandasala3.jpg",
+      image: `${basePath}/varandasala3.jpg`,
       title: "Varanda Sala 3",
       description: "Mais uma perspectiva da varanda da sala.",
     }
   ];
-  
+
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % rooms.length);
