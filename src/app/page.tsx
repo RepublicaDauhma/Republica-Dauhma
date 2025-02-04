@@ -14,10 +14,13 @@ import Contact from "../../components/Contact/Contact";
 import Faces from "../../components/Faces/Faces";
 import Head from "next/head";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const HomePage = () => {
   return (
     <>
       <Head>
+      <link rel="icon" href="https://i.ibb.co/8Dgb1sJP/logo-dauhma-bata-branco.png"/>
         <meta
           property="og:title"
           content="República Dauhma - Estudantes Universitários em São Carlos"
