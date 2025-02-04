@@ -18,6 +18,7 @@ const HomePage = () => {
   return (
     <>
       <Head>
+      <meta name="google-site-verification" content="it8QHeDMvOGypE7b_9N-M0-m_zw8HOe7TTFoU3H2CM8" />
       <link rel="icon" href="https://i.ibb.co/8Dgb1sJP/logo-dauhma-bata-branco.png"/>
         <meta
           property="og:title"
