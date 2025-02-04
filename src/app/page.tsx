@@ -12,7 +12,6 @@ import DownButton from "../../components/DownButton/DownButton";
 import About from "../../components/About/About";
 import Contact from "../../components/Contact/Contact";
 import Faces from "../../components/Faces/Faces";
-
 import Head from "next/head";
 
 const HomePage = () => {
@@ -24,7 +23,7 @@ const HomePage = () => {
           content="República Dauhma - Estudantes Universitários em São Carlos"
         />
         <meta
-          property="og:description"
+          property="og:descri ption"
           content="A República Dauhma é uma comunidade de estudantes universitários em São Carlos, oferecendo um ambiente de moradia e convivência para jovens universitários."
         />
         <meta property="og:image" content="https://i.ibb.co/1fFyhrXs/image.png" />
