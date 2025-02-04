@@ -14,8 +14,6 @@ import Contact from "../../components/Contact/Contact";
 import Faces from "../../components/Faces/Faces";
 import Head from "next/head";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-
 const HomePage = () => {
   return (
     <>
