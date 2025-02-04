@@ -1,18 +1,19 @@
 import react, { useState } from "react";
 import Image from "next/image";
 import { ArrowLeft, ArrowRight, House } from "lucide-react";
+import { useRouter } from "next/router";
+
+const router = useRouter();
+const basePath = router.basePath; // Gets '/republica-dauhma' in production
+
 
 export default function Carousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const getImagePath = (path) => {
-    const isDev = process.env.NODE_ENV === 'development';
-    return isDev ? path : `/republica-dauhma${path}`;
-  };
 
   const rooms = [
     {
-      image: getImagePath("/quartobixos.jpeg"),
+      image: `${basePath}/quartobixos.jpeg`,
       title: "Quarto dos Bixos",
       description:
         "Esse aqui é seu futuro quarto, conta com área de estudos e banheiro.",
