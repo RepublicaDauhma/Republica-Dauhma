@@ -39,10 +39,6 @@ const HomePage = () => {
           República Dauhma - Estudantes Universitários em São Carlos
         </title>
         <meta
-          name="description"
-          content="A República Dauhma é uma comunidade de estudantes universitários em São Carlos, oferecendo um ambiente de moradia e convivência para jovens universitários."
-        />
-        <meta
           name="google-site-verification"
           content="it8QHeDMvOGypE7b_9N-M0-m_zw8HOe7TTFoU3H2CM8"
         />
