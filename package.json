@@ -20,5 +20,19 @@
   "devDependencies": {
     "@types/node": "22.10.10",
     "@types/react": "19.0.8"
-  }
+  },
+  "name": "republica-dauhma",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrqrz/Republica-Dauhma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyrqrz/Republica-Dauhma/issues"
+  },
+  "homepage": "https://github.com/cyrqrz/Republica-Dauhma#readme",
+  "description": ""
 }
