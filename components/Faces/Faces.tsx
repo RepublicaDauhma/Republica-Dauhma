@@ -9,20 +9,21 @@ interface Feature {
   title: string;
   link: string;
 }
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const features: Feature[] = [
   {
-    image: "/scot.jpg",
+    image: `${basePath}/scot.jpeg`,
     title: "Scot",
     link: "https://wa.me/5519998305570/",
   },
   {
-    image: "/pomba.jpeg",
+    image: `${basePath}/scot.jpeg`,
     title: "Pomba",
     link: "https://wa.me/5511946826396/",
   },
   {
-    image: "/coroinha.jpeg",
+    image: `${basePath}/coroinha.jpeg`,
     title: "Coroinha",
     link: "https://wa.me/5511971397539/",
   },

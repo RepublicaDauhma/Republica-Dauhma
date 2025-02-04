@@ -17,7 +17,7 @@ const navigation: NavItem[] = [
   { label: "Sobre nós", href: "#sobre-nos" },
   { label: "Contato", href: "#contato" },
 ];
-
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -34,7 +34,7 @@ const Navbar = () => {
               <div className="w-8 h-8 bg-white mr-2 rounded-full flex items-center justify-center">
                 <span className="bg-gray-800 text-white text-xl font-bold">
                   <Image
-                    src="/logo dauhma bata branco.png"
+                    src={`${basePath}/logo dauhma bata branco.png`}
                     alt="República Dauhma"
                     width={200}
                     height={200}

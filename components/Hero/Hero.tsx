@@ -3,11 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react"; // assuming the ArrowRight component is in the same directory
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const Hero = () => {
   return (
     <section id="inicio" className="bg-gray-800 text-white py-44">
       <Image
-        src="/logo dauhma bata branco.png"
+        src={`${basePath}/logo dauhma bata branco.png`}
         alt="Logo"
         width={200}
         height={200}
