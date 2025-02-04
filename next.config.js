@@ -1,5 +1,5 @@
 const nextConfig = {
-  basePath: "/republica-dauhma",
+  basePath: "/Republica-Dauhma",
   output: "export",
   distDir: "dist",
   images: {
