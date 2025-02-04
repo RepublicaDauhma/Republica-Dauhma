@@ -18,8 +18,14 @@ const HomePage = () => {
   return (
     <>
       <Head>
-      <meta name="google-site-verification" content="it8QHeDMvOGypE7b_9N-M0-m_zw8HOe7TTFoU3H2CM8" />
-      <link rel="icon" href="https://i.ibb.co/8Dgb1sJP/logo-dauhma-bata-branco.png"/>
+        <link
+          rel="icon"
+          href="https://i.ibb.co/8Dgb1sJP/logo-dauhma-bata-branco.png"
+        />
+        <meta
+          name="google-site-verification"
+          content="it8QHeDMvOGypE7b_9N-M0-m_zw8HOe7TTFoU3H2CM8"
+        />
         <meta
           property="og:title"
           content="República Dauhma - Estudantes Universitários em São Carlos"
@@ -28,8 +34,11 @@ const HomePage = () => {
           property="og:descri ption"
           content="A República Dauhma é uma comunidade de estudantes universitários em São Carlos, oferecendo um ambiente de moradia e convivência para jovens universitários."
         />
-        <meta property="og:image" content="https://i.ibb.co/1fFyhrXs/image.png" />
-        
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/1fFyhrXs/image.png"
+        />
+
         <title>
           República Dauhma - Estudantes Universitários em São Carlos
         </title>
