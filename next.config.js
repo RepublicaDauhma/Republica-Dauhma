@@ -6,7 +6,7 @@ const nextConfig = {
     unoptimized: true,
   },
   env: {
-    NEXT_PUBLIC_BASE_PATH: "/republica-dauhma",
+    NEXT_PUBLIC_BASE_PATH: "/Republica-Dauhma",
   },
 };
 
