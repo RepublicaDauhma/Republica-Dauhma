@@ -37,7 +37,7 @@ export default function RootLayout({
         <footer className="bg-gray-800 text-white py-6">
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex justify-between items-center">
-              <div>© 2024 República Dauhma. Todos os direitos reservados.</div>
+              <footer>© 2024 República Dauhma. Todos os direitos reservados.</footer>
               <div className="flex space-x-6">
                 <a
                   href="https://github.com/cyrqrz"
