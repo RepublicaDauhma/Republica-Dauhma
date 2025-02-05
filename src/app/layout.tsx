@@ -45,9 +45,6 @@ export default function RootLayout({
                 >
                   Desenvolvedor
                 </a>
-                <a href="#" className="hover:text-gray-300">
-                  Contato
-                </a>
               </div>
             </div>
           </div>
