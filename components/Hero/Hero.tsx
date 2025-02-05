@@ -34,6 +34,9 @@ const Hero = () => {
               </button>
             </Link>
           </div>
+          <p className="text-sm py-3 text-purple-100 max-w-2xl mx-auto">
+          República Dauhma, uma das mais tradicionais repúblicas universitárias em São Carlos!
+          </p>
         </div>
       </div>
 
