@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Menu, X } from "lucide-react";
 import Navbar from "../../components/Navbar/Navbar";
-import GoogleTagManager from "@magicul/next-google-tag-manager";
+import { GoogleTag } from "../../components/GoogleTag/GoogleTag";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
+    <GoogleTag />
       <head>
         <link
           href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
@@ -45,7 +46,6 @@ export default function RootLayout({
           República Dauhma - Estudantes Universitários em São Carlos
         </title>
       </head>
-      <GoogleTagManager id="AW-16857789039" />
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         {/* Sticky Navigation Bar */}
         <nav className="sticky top-0 z-50 bg-gray text-white shadow-lg backdrop-blur-sm">

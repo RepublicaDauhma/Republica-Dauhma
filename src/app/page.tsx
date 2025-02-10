@@ -13,10 +13,12 @@ import About from "../../components/About/About";
 import Contact from "../../components/Contact/Contact";
 import Faces from "../../components/Faces/Faces";
 import Head from "next/head";
+import {GoogleTag} from "../../components/GoogleTag/GoogleTag";
 
 const HomePage = () => {
   return (
     <>
+      <GoogleTag />
       <Head>
         <meta
           name="google-site-verification"

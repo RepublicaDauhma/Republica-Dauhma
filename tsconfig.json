@@ -29,7 +29,7 @@
     ".next/types/**/*.ts",
     "next-env.d.ts",
     "dist/types/**/*.ts"
-  ],
+, "ṕostcss.config.js"  ],
   "exclude": [
     "node_modules"
   ]
