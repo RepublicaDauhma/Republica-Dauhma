@@ -18,6 +18,8 @@
     "start": "next start"
   },
   "devDependencies": {
+    "@types/google-publisher-tag": "^1.20250127.0",
+    "@types/gtag.js": "^0.0.20",
     "@types/node": "22.10.10",
     "@types/react": "19.0.8"
   },

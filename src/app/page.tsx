@@ -13,6 +13,9 @@ import About from "../../components/About/About";
 import Contact from "../../components/Contact/Contact";
 import Faces from "../../components/Faces/Faces";
 import Head from "next/head";
+import Document, { Html, Main, NextScript } from 'next/document';
+// Importing the Google Analytics Measurement ID from the environment variable
+const gtag = `https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`;
 
 const HomePage = () => {
   return (
@@ -42,6 +45,20 @@ const HomePage = () => {
           name="google-site-verification"
           content="it8QHeDMvOGypE7b_9N-M0-m_zw8HOe7TTFoU3H2CM8"
         />
+        <script async src={gtag}/>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
+                  page_path: window.location.pathname
+                });
+              `,
+            }}
+          />
+
       </Head>
       <div className="min-h-screen !scroll-smooth">
         {/* Hero Section */}
