@@ -15,7 +15,7 @@ import Faces from "../../components/Faces/Faces";
 import Head from "next/head";
 import Document, { Html, Main, NextScript } from 'next/document';
 // Importing the Google Analytics Measurement ID from the environment variable
-const gtag = `https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`;
+const gtag = `https://www.googletagmanager.com/gtag/js?id=AW-16857789039`;
 
 const HomePage = () => {
   return (
@@ -52,7 +52,7 @@ const HomePage = () => {
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
+                gtag('config', 'AW-16857789039}', {
                   page_path: window.location.pathname
                 });
               `,
