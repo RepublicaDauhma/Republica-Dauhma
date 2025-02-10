@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@magicul/next-google-tag-manager": "^2.0.0",
     "@tailwindcss/vite": "^4.0.0",
     "antd": "^5.23.3",
     "lucide-react": "^0.474.0",

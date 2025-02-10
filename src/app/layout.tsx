@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Menu, X } from "lucide-react";
 import Navbar from "../../components/Navbar/Navbar";
+import GoogleTagManager from "@magicul/next-google-tag-manager";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,28 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
           rel="stylesheet"
         />
+        <link
+          rel="icon"
+          href="https://i.ibb.co/8Dgb1sJP/logo-dauhma-bata-branco.png"
+        />
+        <meta
+          property="og:title"
+          content="República Dauhma - Estudantes Universitários em São Carlos"
+        />
+        <meta
+          property="og:descri ption"
+          content="A República Dauhma é uma comunidade de estudantes universitários em São Carlos, oferecendo um ambiente de moradia e convivência para jovens universitários."
+        />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/1fFyhrXs/image.png"
+        />
+
+        <title>
+          República Dauhma - Estudantes Universitários em São Carlos
+        </title>
       </head>
+      <GoogleTagManager id="AW-16857789039" />
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         {/* Sticky Navigation Bar */}
         <nav className="sticky top-0 z-50 bg-gray text-white shadow-lg backdrop-blur-sm">
@@ -37,7 +59,9 @@ export default function RootLayout({
         <footer className="bg-gray-800 text-white py-6">
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex justify-between items-center">
-              <footer>© 2024 República Dauhma. Todos os direitos reservados.</footer>
+              <footer>
+                © 2024 República Dauhma. Todos os direitos reservados.
+              </footer>
               <div className="flex space-x-6">
                 <a
                   href="https://github.com/cyrqrz"

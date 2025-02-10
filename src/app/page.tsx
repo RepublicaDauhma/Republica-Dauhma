@@ -13,52 +13,15 @@ import About from "../../components/About/About";
 import Contact from "../../components/Contact/Contact";
 import Faces from "../../components/Faces/Faces";
 import Head from "next/head";
-import Document, { Html, Main, NextScript } from 'next/document';
-// Importing the Google Analytics Measurement ID from the environment variable
-const gtag = `https://www.googletagmanager.com/gtag/js?id=AW-16857789039`;
 
 const HomePage = () => {
   return (
     <>
       <Head>
-        <link
-          rel="icon"
-          href="https://i.ibb.co/8Dgb1sJP/logo-dauhma-bata-branco.png"
-        />
-        <meta
-          property="og:title"
-          content="República Dauhma - Estudantes Universitários em São Carlos"
-        />
-        <meta
-          property="og:descri ption"
-          content="A República Dauhma é uma comunidade de estudantes universitários em São Carlos, oferecendo um ambiente de moradia e convivência para jovens universitários."
-        />
-        <meta
-          property="og:image"
-          content="https://i.ibb.co/1fFyhrXs/image.png"
-        />
-
-        <title>
-          República Dauhma - Estudantes Universitários em São Carlos
-        </title>
         <meta
           name="google-site-verification"
           content="it8QHeDMvOGypE7b_9N-M0-m_zw8HOe7TTFoU3H2CM8"
         />
-        <script async src={gtag}/>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'AW-16857789039}', {
-                  page_path: window.location.pathname
-                });
-              `,
-            }}
-          />
-
       </Head>
       <div className="min-h-screen !scroll-smooth">
         {/* Hero Section */}
